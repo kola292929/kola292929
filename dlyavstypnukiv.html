@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>winterschoolofprogramming</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <
+  <!-- The Band Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Вступ 2023</h2>
+
+    <p class="w3-justify">Відокремлений структурний підрозділ “Волинський фаховий коледж Національного університету харчових технологій” здійснює підготовку фахівців для: харчової і переробної промисловостей сфери інформаційних технологій підприємництва, торгівлі, фінансово-кредитних установ сфери обслуговування Форма навчання: денна, бюджет/контракт прийом здійснюється на основі базової (9 класів) та повної (11 класів) середньої освіти, а також ОКР “кваліфікований робітник“.</p>
+
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <p>Відокремлений структурний підрозділ “Волинський фаховий коледж Національного університету харчових технологій”</p>
+            <img src="https://vcolnuft.volyn.ua/newvtnuft/wp-content/uploads/2021/12/DJI_0436-1231x800.jpg" class="w3-round w3-margin-lef" style="width:100%;">
+        </div>
+    </div>
+</div>
+      
+  </div>
+  
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:500px">
+      <h2 class="w3-wide w3-center">Соцмережі для вступників</h2>
+      <p class="w3-opacity w3-center"><i>Канал в Telegram для вступників</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:500px" id="band">
+        <a class="w3-medium w3-text-red" href="https://t.me/+Sf_UPGBVuxlkYjAy"></i><span >Перейти</p></span></span></a>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Результати співбесід</b></p>
+            <p class="w3-opacity">Для вступників до закладу після 9 класу</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Ввійти</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Результати співбесід</b></p>
+            <p class="w3-opacity">Для вступників до закладу після 11 класу</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Ввійти</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Результати співбесід</b></p>
+            <p class="w3-opacity">Для вступників на молодшого бакалавра</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Ввійти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Ввійти</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Ваший g-mail</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Введіть ваший g-mail">
+        <p><label><i class="fa fa-user"></i> Пароль входу</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Введіть пароль">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Ввійти <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Закрити <i class="fa fa-remove"></i></button>
+        <p class="w3-right"> <a href="#" class="w3-text-blue">Потрібна допомога?</a></p>
+      </div>
+    </div>
+  </div>
+  
+      <div class="w3-center">
+      <h2 class="title">Контактна інформація</h2>
+      <div class="contact" id="contact" style="padding-bottom: 10px !important;">
+      <div class="contact-list contact-address"  >
+        <h5><span><i class="fa fa-map-marker w3-xlarge w3-text-dark"></i></span>Адреси</h5>
+        <p>Волі 15, Луцьк, Україна </p>
+        <p>Потебна 4, Луцьк, Україна </p>
+        <p>Львівська 27, Луцьк, Україна </p>
+      </div>
+      <div class="contact-list">
+        <h5><span><i class="fa fa-envelope w3-xlarge w3-text-dark"></i></span>Отримуйте щотижневі оновлення електронною поштою</h5>
+        <div class="email-contact">
+          <input placeholder="Email"  type="email" style="margin: 8px 0px !important;"/>
+          
+          <button class="w3-small w3-red w3-round " style="width: 100px; padding:3px 10px !important">Підписатися</button>
+        </div>
+  
+      </div>
+      <div class="contact-list" >
+        <h5><span><i class="fa fa-phone w3-xlarge w3-text-dark"></i></span>Телефони</h5>
+        <p>  +380(99)511-32-54</p>
+        <p>+380(99)511-34-52</p>
+      </div>
+
+      </div>
+    </div>
+    </script>
+</body>
+</html>
